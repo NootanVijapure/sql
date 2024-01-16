@@ -1,38 +1,13 @@
-# DDL exercise
-Creating Tables:
-Create a table named Movies with the following columns:
-movie_id (integer)
-title (varchar, maximum length 100)
-director (varchar, maximum length 50)
-release_year (integer)
-genre (varchar, maximum length 50)
+## create two tables 
+animals column1 animal_id datatype INT PRIMARY KEY
+   column2 animal_name datatype VARCHAR(50)
+   column3 species datatype VARCHAR(50),
+   column4 habitat_id datatype  INT
+## habitats 
+ habitat_id INT PRIMARY KEY,
+    habitat_name VARCHAR(50),
+    climate VARCHAR(50)
 
-Altering Tables:
-Alter the Movies table to add a new column named rating of type decimal(3, 1).
+practice group by, and sub queries , provide a list of habitata with their IDs, names, and the total number of animals in each habitat
 
-Dropping Tables:
-Create a new table named Students with columns:
-
-student_id (integer)
-student_name (varchar, maximum length 50)
-age (integer)
-grade (varchar, maximum length 2)
-Then, drop the Students table.
-
-Truncating Tables:
-Create a table named Events with columns:
-
-event_id (integer)
-event_name (varchar, maximum length 100)
-date (date)
-location (varchar, maximum length 100)
-Insert some sample data into the Events table. Once done, truncate the table to remove all records while keeping the table structure intact.
-
-Renaming Tables:
-Create a table named Restaurants with columns:
-
-restaurant_id (integer)
-name (varchar, maximum length 50)
-cuisine (varchar, maximum length 50)
-location (varchar, maximum length 100)
-Rename the table to DiningSpots.
+    
